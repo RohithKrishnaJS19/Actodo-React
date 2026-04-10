@@ -25,7 +25,7 @@ function App()
             <Routes>
                 <Route path='/' element={<Login users={users} />}></Route>
                 <Route path='/signup' element={<Signup users={users} setusers={setusers}/>}></Route>
-                <Route path='/Todo' element={<TodoApp/>}></Route>
+                <Route path='/todo' element={<TodoApp/>}></Route>
             </Routes>
         </BrowserRouter>
     </div>
