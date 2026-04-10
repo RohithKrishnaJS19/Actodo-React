@@ -19,7 +19,7 @@ function Login(props) {
             if (euser === item.user && epassword === item.password) {
                 console.log("Login Successful")
                 userfound=true
-                navigate("/Todo",{state:{euser}})
+                navigate("/todo",{state:{euser}})
             }
         })
         if(userfound === false)
