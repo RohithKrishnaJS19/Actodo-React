@@ -8,7 +8,7 @@ function TodoApp() {
   return (
     <div className="bg-black px-5 py-10 h-full">
       <div className="bg-[#EFEFEF] p-10 border rounded">
-        <Header username={location.state.euser} ></Header>
+        <Header username={location.state?.euser} ></Header>
         <div className="flex gap-5 flex-wrap my-5">
           <Card title={"23"} sub={"Chennai"} bg={"#8272DA"}></Card>
           <Card title={"December"} sub={"14:37:02"} bg={"#FD6663"}></Card>
